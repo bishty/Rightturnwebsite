@@ -1,0 +1,62 @@
+.main1 ul li  {
+display: flex;
+margin-left: 250px;
+ 
+}
+.main1 ul li a{
+  font-family: 'Antic Slab', Georgia, "Times New Roman", serif;
+  float: right;
+  font-size: 25px;
+  text-decoration: none;
+
+  color: black;
+  font-weight: 700;
+  margin: 0px 20px;
+}
+.main1 ul li a:hover{
+  color: rgb(174, 19, 19);
+
+}
+.main
+{ width: 100%;
+ padding: 0px ;
+  position: fixed;
+}
+#image34
+{
+  margin-left: 150px;
+}
+@media (prefers-reduced-motion: no-preference){
+:root {
+    scroll-behavior: smooth;
+}
+}
+@media only screen and (max-width: 760px) {
+  body
+  {
+   max-width: 100%;
+  }
+  .main1
+  {
+    max-width: 100%;
+  }
+  #image34
+  {
+    margin-left: 2%;
+  }
+  .main1 ul li  {
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    margin: 0%;
+    
+  }
+  .main1 ul li a 
+  {
+    font-size: 16px;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 2% 3%;
+    border-radius: 0% 0% 10% 10%;
+  }
+  }

@@ -1,0 +1,389 @@
+*
+{
+  box-sizing: border-box;
+}
+body{
+  
+  margin: -1px;
+}
+header{
+  margin: -1px;
+}
+
+.main2
+{ 
+  background-image: url(Quote.jpg);
+  background-size: cover;
+  max-width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: 600px;
+  
+  background-attachment:unset;
+  background-blend-mode: overlay;
+
+}
+  
+.main2min2
+{font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+  text-align: center;
+  margin: 0px;
+
+}
+.main2min2 h1
+{  padding-top: 320px;
+  font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+    line-height: 1em;
+}
+
+
+.banner{
+    display: flex;
+    align-self: center;
+    height: 100vh;
+    width: 100%;
+    background-image:url(right-turn.png);
+    
+    text-align: center;
+}
+.innerbanner{
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    
+    margin: auto ;
+    background-color:rgba(255,255,255,0.51);
+    border-color: #ffffff;
+    padding-top: 40px!important;
+    padding-right: 0px!important;
+    padding-bottom: 40px!important;
+    padding-left: 0px!important;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+
+#innerbannerimg{
+    width: 500px;
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    color:orange;
+    text-align: center;
+    height: 200px;
+}
+.sec1 > h1{
+    padding-left: 400px;
+}
+
+#headh1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 70px;
+    grid-gap: 60px;
+    margin-bottom: 0;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+
+  }
+   .container{
+       width: 100%;
+       height: auto;
+   }
+  .grid1{
+      width: 16%;
+      height: 100vh;
+      float: left;
+      background-image:url(Quote.jpg);
+  }
+  .grid2{
+    width: 16%;
+    float: left;
+}
+.grid3{
+    width: 16%;
+    float: left;
+}
+.grid4{
+    width: 16%;
+    float: left;
+}
+.grid5{
+    width: 16%;
+    float: left;
+}
+.grid6{
+    width: 16%;
+    float: left;
+}
+
+
+#navimg{
+    padding-left: 90px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.topsec{
+    background-image: url(Quote.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+.topsec > h1{
+    color:white;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.formsec
+{
+  text-align: center;
+  margin-top: 80px ;
+}
+.formsec h1{
+  font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000!important;
+
+}
+.formsec2
+{
+  text-align: center;
+  margin-bottom: 100px ;
+}
+
+.formsec2 h1{
+  font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000!important;}
+
+  form{
+      display: block;
+      text-align: center;
+      width: 100%;
+    
+
+  }
+  .form123
+  {
+    width: 70%;
+    text-align: right;
+     }
+  .form123 textarea{
+    min-width: 150px;
+    height: 150px ;
+    margin-bottom: 20px ;
+  }
+  .form123 input{
+    margin-bottom: 5px ;
+  }
+  .same{
+      width: 30%;
+      height: 20px;
+     padding: 25px;
+    border: none;
+    color: #999;
+    background-color: #eee;
+    font-size: 16px;
+  }
+ .diff{
+width: 60%;
+height: 20px;
+padding: 20px;
+border: none;
+border-radius: 0;
+color: #999;
+background-color: #eee;
+font-size: 16px;
+ }
+ #sign{
+     text-align: center;
+    margin-left: 50%;
+     width: 100px;
+     font-size: 22px;
+     height: 40px;
+     border: 2px solid orange;
+     color: orange;
+     background-color: white;
+ }
+ #sign:hover{
+   width: 120px ;
+   background-color: #eee ;
+
+ }
+
+ .sec3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color:#222;;
+  }
+  .sec3 > div {
+    background-color:#222;;
+    margin: 10px;
+    padding: 30px;
+    color:white;
+    
+  }
+  footer
+{
+  background-color: black;
+  margin: 0px;
+}
+footer p{
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+  padding: 20px 150px;
+
+  
+}
+  
+  #footh3
+  {
+      margin: 0px;
+      font-size: 16px;
+      padding: 20px 150px;
+      color: white;
+    }
+.listul{
+    text-align: center;
+    font-size: 40px;
+}
+  .list{
+   display:inline-table;
+   padding: 20px;
+  }
+  a{
+      text-decoration: none;
+      
+  }
+
+  .quick{
+      color: white;
+      font-size: 50px;
+  }
+  .main6min1{
+    width: 100%;
+    color: white;
+    margin: 10px;
+    padding-left: 150px;
+  }
+  .main6
+  {
+    background-color: rgba(0,0,0,0.85);
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    margin: 0px;
+  }
+  .angle{
+    display: none;
+    }
+    button:hover span{
+    display: inline;
+    }
+  .main6min1 h2{
+    color: #ebb518;
+    font-size: 18px ;
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif
+  }
+  .main6min1 p{
+    font-size: 14px;
+  
+  }
+  .main6min1 a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px ;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    
+
+footer p {
+  
+  text-align: center;
+  margin:0px  5px;
+  padding: 20px 10px;
+}
+.main6{
+  display: block;
+  text-align: left;
+
+}
+.main6min1
+{
+  padding: 5px 20px;
+  margin: 0px 0px;
+}
+.main6min1 p{
+  font-size: 15px;
+}
+.formsec
+{
+  padding: 30px 10px ;
+  width: 100%;
+}
+.formh1
+{
+  font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 30px 0px ;
+  color: #000000!important;
+}
+.form123{
+  width: 90%;
+  margin: 3%;
+}
+.diff{
+  width: 100%;
+}
+.same{
+  width: 100%;
+}
+.main2min2
+{
+  align-items: center;
+}
+.main2min2 h1 {
+  padding: 5% 5%;
+ 
+}
+.main2min3
+{
+  padding: 120px 0;
+
+}
+
+  }
